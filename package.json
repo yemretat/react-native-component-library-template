@@ -29,11 +29,6 @@
     "storybook-generate": "sb-rn-get-stories",
     "storybook-watch": "sb-rn-watcher"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "xo --fix",
