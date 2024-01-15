@@ -1,0 +1,5 @@
+{
+  "*.{ts,tsx}": [
+    "xo --rule 'no-console: error' --fix",
+  ],
+}
