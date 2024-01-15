@@ -688,7 +688,7 @@ const theme = createTheme({
   badgeSizeVariants: {
     defaults: {
       paddingHorizontal: '3xs',
-      paddingVertical: '3xs',
+      paddingVertical: '4xs',
       fontSize: 12,
     },
     small: {

@@ -19,21 +19,15 @@
     "format": "eslint -c .eslintrc.js --fix && prettier --write .",
     "storybook": "start-storybook -c docs/.storybook -p 6006",
     "build-storybook-docs": "build-storybook -c docs/.storybook --docs",
-    "build": "bob build",
+    "_build": "bob build",
     "prestart": "sbn-get-stories",
     "sb-watcher": "sbn-watcher",
     "build-storybook": "build-storybook",
     "pod": "cd ios; pod install; cd ..;",
-    "prepare": "bob build && husky install",
+    "_prepare": "bob build && husky install",
     "svgr": "svgr ./src/svg-icons -d ./src/icons --icon --native --typescript --svgo-config svgo.config.js --ignore-existing --replace-attr-values '#273142={props?.fill ?? `#273142`}'",
     "storybook-generate": "sb-rn-get-stories",
     "storybook-watch": "sb-rn-watcher"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "xo --fix",
-      "git add"
-    ]
   },
   "dependencies": {
     "@shopify/restyle": "2.3.0",
