@@ -1,14 +1,14 @@
 import React from 'react';
-import { ReactTestInstance } from 'react-test-renderer';
+import {ReactTestInstance} from 'react-test-renderer';
 import theme from '../../theme';
-import { render } from '../../test-utils';
+import {render} from '../../test-utils';
 import Box from './Box';
 import {Text} from 'react-native';
 
 describe('Box', () => {
   test('should render box correctly', () => {
     // when
-    const { toJSON } = render(<Box />);
+    const {toJSON} = render(<Box />);
 
     // then
     expect(toJSON()).toMatchSnapshot();
@@ -16,7 +16,7 @@ describe('Box', () => {
 
   test('should render given box', () => {
     // when
-    const { getByTestId } = render(
+    const {getByTestId} = render(
       <Box testID="box2" backgroundColor="primaryKey" />,
     );
 
@@ -30,7 +30,7 @@ describe('Box', () => {
 
   test('should render given box children ', () => {
     // when
-    const { getByTestId } = render(
+    const {getByTestId} = render(
       <Box testID="box" backgroundColor="primaryKey">
         <Text>testtest</Text>
       </Box>,

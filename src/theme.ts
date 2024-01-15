@@ -1,5 +1,5 @@
-import { createTheme } from '@shopify/restyle';
-import palettes from "./themeUtils/colors";
+import {createTheme} from '@shopify/restyle';
+import palettes from './themeUtils/colors';
 
 const colors = {
   // Main Colors
@@ -702,11 +702,11 @@ const theme = createTheme({
       fontSize: 12,
     },
     large: {
-      paddingHorizontal: '2xs',
+      paddingHorizontal: '3xs',
       paddingVertical: '2xs',
       fontSize: 14,
     },
-  }
+  },
 });
 
 export type Theme = typeof theme;

@@ -7326,6 +7326,11 @@
   "resolved" "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz"
   "version" "8.5.0"
 
+"eslint-config-xo-react@^0.27.0":
+  "integrity" "sha512-wiV215xQIn71XZyyVfaOXHaFpR1B14IJttwOjMi/eqUK1s+ojJdHr7eHqTLaGUfh6FKgWha1QNwePlIXx7mBUg=="
+  "resolved" "https://registry.npmjs.org/eslint-config-xo-react/-/eslint-config-xo-react-0.27.0.tgz"
+  "version" "0.27.0"
+
 "eslint-config-xo-typescript@^1.0.0":
   "integrity" "sha512-vPQssnRSUgBFOEfB/KY12CXwltwFSn4RSCfa+w7gjBC2PFQ7Yfgmyei+1XUZ3K+8LRGef2NMJUcxts7PldhDjg=="
   "resolved" "https://registry.npmjs.org/eslint-config-xo-typescript/-/eslint-config-xo-typescript-1.0.1.tgz"

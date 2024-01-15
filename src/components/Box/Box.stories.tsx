@@ -1,6 +1,6 @@
-import { ComponentStory } from '@storybook/react-native';
+import {ComponentStory} from '@storybook/react-native';
 import React from 'react';
-import {Text} from 'react-native'
+import {Text} from 'react-native';
 import Box from './Box';
 
 export default {
@@ -12,9 +12,7 @@ type BoxStory = ComponentStory<typeof Box>;
 
 export const Basic: BoxStory = args => (
   <>
-    <Text>
-      Box
-    </Text>
+    <Text>Box</Text>
     <Box {...args} />
   </>
 );
