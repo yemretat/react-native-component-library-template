@@ -1,5 +1,6 @@
 {
   "*.{ts,tsx}": [
-    "xo --rule 'no-console: error' --fix",
+    "xo --fix",
+    "npm run lint"
   ],
 }

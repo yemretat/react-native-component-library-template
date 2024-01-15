@@ -1,5 +1,5 @@
 module.exports = {
-  "extends": ["xo/react", "xo-typescript/react"], // React ve TypeScript için özel xo kurallarını genişletir.
+  "extends": ["eslint-config-xo-react", "xo-typescript/react"], // React ve TypeScript için özel xo kurallarını genişletir.
     "space": 2, // Girinti için boşluk sayısı (bu durumda 2).
     "semicolon": false, // Noktalı virgül kullanımını zorunlu kılmaz (JavaScript'te isteğe bağlı).
     "envs": ["react-native"],  // Kodun çalıştırılacağı ortamları belirtir (react-native).
