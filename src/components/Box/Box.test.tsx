@@ -17,10 +17,10 @@ describe('Box', () => {
   test('should render given box', () => {
     // when
     const { getByTestId } = render(
-      <Box testID="box" backgroundColor="primaryKey" />,
+      <Box testID="box2" backgroundColor="primaryKey" />,
     );
 
-    const boxComponent = getByTestId('box');
+    const boxComponent = getByTestId('box2');
 
     // then
     expect(boxComponent.props.style[0].backgroundColor).toBe(
